@@ -1,0 +1,82 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    overflow: hidden;
+}
+body {
+    background-color:#131309;
+    background-image: url('/src/bg.jpg');
+}
+
+.main-logo {
+    width: 140px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.nav li {
+   align-self: center;
+}
+
+.nav-item{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-item > a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+}
+
+
+.big {
+ font-size: 150px;
+ color: aliceblue;
+ z-index: 2;
+ position: absolute;
+ left: 20rem;
+}
+
+
+.venus {
+    height: auto;
+    position: absolute;
+    top: 15rem;
+    left: 45rem;
+    filter: drop-shadow(0 0 2rem skyblue);
+    z-index: 1;
+}
+
+@keyframes floating {
+    0% {
+        transform: translatey(0px);
+    }
+    50% {
+        transform: translatey(-10px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.venus {
+    animation: floating 4s ease-in-out infinite;
+}
+
+.neptune {
+    z-index: -1;
+    position: absolute;
+    top: 15rem;
+    left: 75rem;
+}
+
+.nave {
+    position: relative;
+}

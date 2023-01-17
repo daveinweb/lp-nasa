@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js">
+    <div class="container">
+        <div class="nav">
+           <img class="main-logo" src="/src/NASA_Logo-01.svg" alt="logo">
+           <li class="nav-item"><a href="">Home</a></li>
+           <li class="nav-item"><a href="">Products</a></li>
+           <li class="nav-item"><a href="">Collections</a></li>
+           <li class="nav-item"><a href="">About Space</a></li>
+        </div>
+    </div>
+    <section class="main">
+        <div class="venus">
+            <img src="https://www.transparentpng.com/thumb/planet/blue-planet-free-png-icon-Hr7RcV.png" alt="venus"width="100%">
+        </div>
+        <div class="neptune">
+            <img src="https://www.transparentpng.com/thumb/planet/blue-abstract-neptune-planet-png-picture-download-in2FE9.png" alt="neptune" width="90">
+        </div>
+        <div class="big">
+            <h1>Sky is the limit.</h1>
+        </div>
+        <div class="nave">
+            <img src="/src/nave.png" alt="nave-nasa" width="250">
+        </div>
+    </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+        "particles": {
+            "number": {
+            "value": 355,
+            "density": {
+                "enable": true,
+                "value_area": 789.1476416322727
+            }
+            },
+            "color": {
+            "value": "#ffffff"
+            },
+            "shape": {
+            "type": "circle",
+            "stroke": {
+                "width": 0,
+                "color": "#000000"
+            },
+            "polygon": {
+                "nb_sides": 5
+            },
+            "image": {
+                "src": "img/github.svg",
+                "width": 100,
+                "height": 100
+            }
+            },
+            "opacity": {
+            "value": 0.48927153781200905,
+            "random": false,
+            "anim": {
+                "enable": true,
+                "speed": 0.5,
+                "opacity_min": 0,
+                "sync": false
+            }
+            },
+            "size": {
+            "value": 2,
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 2,
+                "size_min": 0,
+                "sync": false
+            }
+            },
+            "line_linked": {
+            "enable": false,
+            "distance": 150,
+            "color": "#ffffff",
+            "opacity": 0.4,
+            "width": 1
+            },
+            "move": {
+            "enable": true,
+            "speed": 0.7,
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "out",
+            "bounce": false,
+            "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+            }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "bubble"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "push"
+            },
+            "resize": true
+            },
+            "modes": {
+            "grab": {
+                "distance": 400,
+                "line_linked": {
+                "opacity": 1
+                }
+            },
+            "bubble": {
+                "distance": 83.91608391608392,
+                "size": 1,
+                "duration": 3,
+                "opacity": 1,
+                "speed": 3
+            },
+            "repulse": {
+                "distance": 200,
+                "duration": 0.4
+            },
+            "push": {
+                "particles_nb": 4
+            },
+            "remove": {
+                "particles_nb": 2
+            }
+            }
+        },
+        "retina_detect": true
+        });
+    </script>
+</body>
+</html>
